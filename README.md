@@ -1,66 +1,91 @@
+# 🏥 Healthcare Analytics Power BI Dashboard
 
-Project Summary:
+This project focuses on building an interactive healthcare analytics dashboard using Power BI. It visualizes patient data, hospital performance, and treatment outcomes to provide actionable insights for healthcare administrators, doctors, and policy makers.
 
-I've designed the report across three interactive pages:
+## 📖 Project Summary
 
-Patient Summary Dashboard:This page provides insights into the hospital’s patient demographics and current status.
+The report is structured across three interactive pages to provide a comprehensive view of hospital operations and patient insights:
 
-Key visuals include:
+## 1️⃣ Patient Summary Dashboard
 
-	Patient distribution by gender
+Patient distribution by gender
 
-	Patient status overview (e.g., Normal, ICU, Discharge, etc.)
+Patient status overview (Normal, ICU, Discharge, etc.)
 
-	In-patient trends by department
+In-patient trends by department
 
-	Slicers to filter data by department, patient type, and status
+Slicers to filter data by department, patient type, and status
 
-Hospital Summary Dashboard:
+## 2️⃣ Hospital Summary Dashboard
 
-Here I focused on the hospital’s operational side.
+KPIs displayed: Total beds, Occupied beds, Average Length of Stay (LOS), Total revenue, Staff count
 
-KPIs displayed include:
+Visualizations include:
 
-	Total beds
+Revenue by department
 
-	Occupied beds
+Average ER time
 
-	Average length of stay (LOS)
+Patient feedback and ratings
 
-	Total revenue
+LOS breakdown to monitor patient flow and efficiency
 
-	Staff count
+## 3️⃣ Patient Details Page
 
- 
+Searchable and filterable table of all patients
 
-I also visualized:
+Synced slicers to filter by department, status, or gender
 
-	Revenue by department
+Instant drill-down into individual patient records
 
-	Average ER time
+## ✨ Features
 
-	Patient feedback and ratings
+Interactive dashboards with multiple pages and filters
 
-	A LOS breakdown to monitor patient flow and efficiency
+DAX measures to calculate KPIs like occupied beds, average LOS, and revenue
 
- 
+Page navigation buttons for user-friendly interface
 
- Patient Details Page:
+Sync slicers for cross-page filtering
 
-	This page offers a searchable, filterable table of all patients.Using synced slicers, users can filter by department, status, or gender — and instantly drill down into individual patient records.
+Custom visuals: donut charts, bar charts, KPI cards
 
- Features Used:
+Dynamic filtering across departments, patient types, and statuses
 
- 
+## 🛠 Tools & Technologies
 
-	DAX measures to calculate KPIs like occupied beds, average LOS, and revenue   
+Power BI – Dashboard and report building
 
-	Page navigation buttons for a user-friendly interface
+DAX – Measures and calculated columns for KPIs
 
-    Sync slicers for cross-page filtering
+Power Query – Data cleaning and transformation
 
-	Custom visuals like donut charts, bar charts, and cards
+Excel / CSV – Raw patient and hospital data
 
- 
+Matplotlib / Plotly (optional) – Supplementary visualizations
 
- 
+## 🔍 How It Works
+
+Data Collection – Load hospital and patient datasets in CSV/Excel
+
+Data Cleaning – Transform and normalize data using Power Query
+
+Data Modeling – Build relationships between tables for analysis
+
+KPI & Metrics – Create calculated measures using DAX
+
+Visualizations – Build interactive charts, tables, and maps
+
+Dashboard Deployment – Publish reports on Power BI Service for sharing
+
+## 💡 Use Cases
+
+Monitor hospital and departmental performance
+
+Analyze patient trends and treatment outcomes
+
+Support data-driven decisions for hospital administrators
+
+Track healthcare metrics over time for policy-making
+
+Identify high-performing hospitals or departments
